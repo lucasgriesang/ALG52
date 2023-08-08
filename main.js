@@ -7,10 +7,10 @@ function ad() {
             document.getElementById("p").innerHTML = "Sucesso ao fazer login"
         }
         else{
-            alert("Incorreto")
+            alert("Senha Incorreta")
         }
     }
     else{
-        alert("Incorreto")
+        alert("Usuario Incorreto")
     }
 }
