@@ -6,7 +6,7 @@ function ad() {
     else {
         alert("nome incoreto ");
     }
-    let senha = document.getElementById("123").value
+    let senha = document.getElementById("senha").value
     if (senha === "123") {
         window.alert("o senha esta coreto ");
     }
