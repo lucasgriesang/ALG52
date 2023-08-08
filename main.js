@@ -1,16 +1,16 @@
 function ad() {
     let nome = document.getElementById("admin").value
-    if (nome === "admin") {
-        window.alert("o nome esta coreto ");
-    }
-    else {
-        alert("nome incoreto ");
-    }
     let senha = document.getElementById("senha").value
-    if (senha === "123") {
-        window.alert("o senha esta coreto ");
+
+    if (nome === "admin") {
+        if (senha === "123") {
+            document.getElementById("p").innerHTML = "Sucesso ao fazer login"
+        }
+        else{
+            alert("Incorreto")
+        }
     }
-    else {
-        alert("senha incoreto ");
+    else{
+        alert("Incorreto")
     }
 }
