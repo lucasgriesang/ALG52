@@ -1,22 +1,16 @@
-function handleAddName() {
-    //pega o valor digitado pelo usuário pq tem o username como id
-    let userName = document.querySelector("#username").value
-    //console.log(userName.value)
-
-    //envia o valor captura para o localstorage
-    localStorage.setItem("username", userName);
-    //localStorage.setItem("password", "123456");
+function ad() {
+    var nome = document.getElementById("admin").value
+    if (nome === "admin") {
+        window.alert("o nome esta coreto ");
+    }
+    else {
+        alert("nome incoreto ");
+    }
+    var senha = document.getElementById("123").value
+    if (senha === "123") {
+        window.alert("o senha esta coreto ");
+    }
+    else {
+        alert("senha incoreto ");
+    }
 }
-
-
-
-function handleAddName() {
-    //pega o valor digitado pelo usuário pq tem o username como id
-    let userName = document.querySelector("#senha").value
-    //console.log(userName.value)
-
-    //envia o valor captura para o localstorage
-    localStorage.setItem("senha", userName);
-    //localStorage.setItem("password", "123456");
-}
-
